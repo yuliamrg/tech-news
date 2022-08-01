@@ -1,0 +1,42 @@
+.nav-main ul.nav-menu{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #2f3640;
+    height: 100%;
+    padding: 3rem;
+    opacity: .9;
+    transform: translate(-400px);
+    transition: transform .5s ease-in-out;
+}
+
+.nav-main ul.nav-menu.show {
+    transform: translate(-20px);
+}
+
+.nav-main ul.nav-menu li{
+    padding: 2rem;
+    border-bottom: #ccc solid 1px;
+    font-size: 0.83em;
+}
+
+.nav-main ul.nav-menu-right {
+    margin-right: 5rem;
+}
+
+.menu-btn {
+    display: block;
+}
+    
+.news-cards {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.cards-baner-one .content, .cards-baner-two .content{
+    width: 80%;
+}
+
+.footer-links .footer-container {
+    grid-template-columns: repeat(2, 1fr);
+}

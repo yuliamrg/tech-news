@@ -1,0 +1,16 @@
+.news-cards {
+grid-template-columns: 1fr;
+}
+
+.news-cards img {
+    height: 27rem;
+}
+
+.cards-baner-one .content, .cards-baner-two .content {
+    width: 100%;
+    padding: 6rem 2rem;
+}
+
+.footer-links .footer-container {
+    grid-template-columns: 1fr;
+}

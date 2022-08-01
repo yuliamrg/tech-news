@@ -1,0 +1,244 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+  background-color: black;
+  color: white;
+  background-color: #dfdbe5;
+  background-color: #171717;
+  /* Backgorund hero */
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='105' viewBox='0 0 80 105'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='death-star' fill='%23540606' fill-opacity='0.1'%3E%3Cpath d='M20 10a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm15 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zM20 75a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zm30-65a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm0 65a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zM35 10a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zM5 45a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zm60 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+/* navigation */
+.nav-main {
+    font-size: 1.7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6rem;
+    padding: 2rem 0rem;
+}
+
+.nav-brand {
+    width: 5rem;
+}
+
+/* nav left */
+
+.nav-main ul {
+    display: flex;
+}
+.nav-main ul li {
+    padding: 1rem;
+}
+
+.nav-main a {
+padding: 0.2rem;
+}
+.nav-main li  a:hover {
+border-bottom: 2px solid white;
+}
+
+.nav-main .nav-menu {
+    flex: 1;
+    margin-left: 2rem;
+}
+
+hr {
+  margin: 1rem 0;
+}
+
+.menu-btn {
+  position: absolute;
+  cursor: pointer;
+  top: 15px;
+  right: 30px;
+  font-size: 1.5rem;
+  z-index: 2;
+  display: none;
+}
+
+/* SHOWCASE */
+
+.showcase {
+  width: 100%;
+  height: 55rem;
+  background: url(/img/showcase2.jpg) no-repeat center/cover fixed;
+
+  /* background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat; */
+
+  padding: 5rem;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  background: #262626;
+  color: white;
+  font-size: 1.5em;
+  border: 1px solid #fff;
+  margin: 1rem 0;
+}
+
+.btn:hover {
+  opacity: 0.7;
+}
+
+.showcase h2, .showcase p {
+  margin-bottom: 1rem;
+}
+
+/* NEWS CARDS */
+
+.news-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2.5rem;
+  margin: 7rem 0;
+}
+
+.news-cards img{
+  width: 100%;
+  height: 18rem;
+}
+
+.news-cards h3 {
+  font-size: 2em;
+  margin: 1rem 0;
+}
+
+.news-cards a {
+padding: 1rem 0;
+color: #f2f2f2;
+text-transform: uppercase;
+font-weight: bold;
+}
+
+.news-cards a:hover {
+  text-decoration: underline;
+}
+
+/* CARDS BANNER ONE*/
+.cards-baner-one {
+  width: 100%;
+  height: 35rem;
+  background: url(/img/tech-red.jpg) center center/cover;
+  margin-bottom: 4rem;
+}
+
+.cards-baner-one .content {
+  width: 40%;
+  padding: 9rem 0 0 3rem;
+  color: white ;
+}
+
+.cards-baner-one p, .cards-baner-one h2 {
+  margin: 1rem 0 2rem 0;
+}
+
+/* CARDS BANER TWO */
+
+.cards-baner-two {
+  width: 100%;
+  height: 35rem;
+  background: url(/img/image-five.jpg) no-repeat center center/cover;
+}
+
+.cards-baner-two .content {
+  width: 50%;
+  padding: 10rem 0 0 3rem;
+}
+
+/* Social */
+
+.social {
+  margin: 5rem;
+}
+
+.social p {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.links a {
+  margin: 0 3rem;
+}
+
+.links i {
+  font-size: 3rem;
+}
+
+/* Footer links */
+
+.footer-links {
+  background: #2f3640;
+  color: #616161;
+  font-size: 1.2em;
+  padding: 3.5rem 0;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.footer-container ul {
+  margin: 0 auto;
+}
+
+.footer-container li {
+  line-height: 2.8;
+}
+
+.footer {
+  background: #2f3640;
+  color: #616161;
+  font-size: 1.027em;
+  padding: 2rem 0;
+  text-align: center;
+}

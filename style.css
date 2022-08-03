@@ -87,7 +87,7 @@ hr {
 .showcase {
   width: 100%;
   height: 55rem;
-  background: url(/img/showcase2.jpg) no-repeat center/cover fixed;
+  background: url(https://i.ibb.co/rd29JXx/showcase2.jpg) no-repeat center/cover fixed;
 
   /* background-size: cover;
   background-position: center center;
@@ -157,7 +157,7 @@ font-weight: bold;
 .cards-baner-one {
   width: 100%;
   height: 35rem;
-  background: url(/img/tech-red.jpg) center center/cover;
+  background: url("https://i.ibb.co/nMYfHhK/tech-red.jpg") center center/cover;
   margin-bottom: 4rem;
 }
 
@@ -176,7 +176,7 @@ font-weight: bold;
 .cards-baner-two {
   width: 100%;
   height: 35rem;
-  background: url(/img/image-five.jpg) no-repeat center center/cover;
+  background: url(https://i.ibb.co/RDrnfPd/image-five.jpg) no-repeat center center/cover;
 }
 
 .cards-baner-two .content {
